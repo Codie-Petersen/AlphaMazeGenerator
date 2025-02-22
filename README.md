@@ -1,6 +1,6 @@
 # AlphaMazeGenerator: A Critique of AlphaMaze's Efficiency
 
-AlphaMazeGenerator is a project designed to critique the efficiency of using large language models (LLMs) for spatial reasoning tasks, specifically the AlphaMaze project. The AlphaMaze interface is limited to 5x5 mazes, which restricts its ability to handle more complex scenarios. This generator was created to test these limitations and explore more efficient methods for solving mazes.
+AlphaMazeGenerator is a project designed to critique the efficiency of using large language models (LLMs) for spatial reasoning tasks, specifically the [AlphaMaze project](https://github.com/janhq/visual-thinker). The [AlphaMaze interface](https://alphamaze.menlo.ai/) is limited to 5x5 mazes, which restricts its ability to handle more complex scenarios. This generator was created to test these limitations and explore more efficient methods for solving mazes.
 
 ## Introduction
 
