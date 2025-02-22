@@ -1,2 +1,28 @@
-# AlphaMazeGenerator
-A generator for AlphaMaze formatted mazes.
+# AlphaMazeGenerator: A Critique of AlphaMaze's Efficiency
+
+AlphaMazeGenerator is a project designed to critique the efficiency of using large language models (LLMs) for spatial reasoning tasks, specifically the AlphaMaze project. The AlphaMaze interface is limited to 5x5 mazes, which restricts its ability to handle more complex scenarios. This generator was created to test these limitations and explore more efficient methods for solving mazes.
+
+## Introduction
+
+The AlphaMaze project aims to enhance visual reasoning in LLMs by having them solve mazes presented in text. However, the current implementation is constrained by its inability to handle mazes of arbitrary sizes. This limitation highlights the inefficiency of using complex models for tasks that can be more effectively solved with simpler algorithms.
+
+## Key Features
+
+- **Arbitrary Maze Sizes**: This generator can create mazes of any size (practical limits because of recursive functions), demonstrating the flexibility needed for real-world applications.
+- **Q-Learning Algorithm**: A Q-Learning algorithm is integrated to efficiently navigate through the mazes to demonstrate a more straightforward and effective method compared to complex LLMs.
+- **Critique of AlphaMaze**: By comparing the efficiency of Q-Learning with the computational resources required by AlphaMaze, this project argues that simpler methods are often more suitable for quantized spatial tasks.
+
+## How It Works
+
+1. **Maze Generation**: The project uses a recursive backtracking algorithm to generate mazes of specified sizes.
+2. **Q-Learning Training**: The Q-Learning algorithm is trained on the generated maze to learn the optimal path from the origin to the target.
+3. **Visualization Tools**: Includes tools for visualizing the maze, the Q-Learning policy, and the rewards distribution across the maze.
+
+## Benefits
+
+- **Efficiency**: Q-Learning provides a more efficient approach to solving mazes compared to complex visual reasoning tasks.
+- **Flexibility**: Supports mazes of any size, allowing for more diverse and challenging scenarios.
+
+## Conclusion
+
+This project demonstrates that for quantized spatial tasks like maze solving, simpler algorithms like Q-Learning can be more efficient and effective than using large language models. It challenges the notion that complex models are necessary for spatial reasoning tasks. In my opinion, LLMs should have subsystems attached to them to accomplish these tasks and the LLMs can just utilize the results. LLMs should be trainined on something like the policy and what that policy means in relations to other semantic tasks/goals. Not the actual task of solving a maze or some other spatial task, which really isn't necessary.
